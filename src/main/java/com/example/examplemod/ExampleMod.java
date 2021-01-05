@@ -1,6 +1,9 @@
 package com.example.examplemod;
 
 import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -16,12 +19,25 @@ public class ExampleMod
 
     private static Logger logger;
     
+    public static ToolMaterial myToolMaterial;
+    public static CustomSword mySword;
+    
+    public static TestBlock myBlock;
+    //public static TestBlockItem myBlockItem;
+    
     //Test Change 1/4/21
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
+        
+        myToolMaterial = EnumHelper.addToolMaterial("MATERIAL NAME", 4, 10000, 20.0F, 100.0F, 30);
+        
+        
+        mySword = new CustomSword();
+        myBlock = new TestBlock();
+        
     }
 
     @EventHandler
