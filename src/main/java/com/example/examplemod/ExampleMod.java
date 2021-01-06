@@ -20,9 +20,9 @@ public class ExampleMod
     private static Logger logger;
     
     public static ToolMaterial myToolMaterial;
-    public static CustomSword mySword;
+    //public static CustomSword mySword;
     
-    public static TestBlock myBlock;
+    //public static TestBlock myBlock;
     //public static TestBlockItem myBlockItem;
     
     //Test Change 1/4/21
@@ -35,8 +35,8 @@ public class ExampleMod
         myToolMaterial = EnumHelper.addToolMaterial("MATERIAL NAME", 4, 10000, 20.0F, 100.0F, 30);
         
         
-        mySword = new CustomSword();
-        myBlock = new TestBlock();
+        //mySword = new CustomSword();
+        //myBlock = new TestBlock();
         
     }
 
