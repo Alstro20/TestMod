@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package testmod;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -10,8 +10,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION)
 public class ExampleMod
 {
-    public static final String MODID = "examplemod";
-    public static final String NAME = "Example Mod";
+    public static final String MODID = "testmod";
+    public static final String NAME = "Test Mod";
     public static final String VERSION = "0.0.0.1";
 
     @SidedProxy(clientSide="com.example.examplemod.ClientOnlyProxy", serverSide="com.example.examplemod.DedicatedServerProxy")

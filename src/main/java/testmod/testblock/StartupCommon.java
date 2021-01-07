@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package testmod.testblock;
 
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.Mod;

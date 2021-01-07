@@ -1,5 +1,5 @@
 
-package com.example.examplemod;
+package testmod;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

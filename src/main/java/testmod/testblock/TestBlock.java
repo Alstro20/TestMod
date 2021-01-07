@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package testmod.testblock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

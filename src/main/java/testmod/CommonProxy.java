@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package testmod;
 
 import net.minecraft.entity.player.EntityPlayer;
 
@@ -6,16 +6,15 @@ public abstract class CommonProxy {
 
 	
 	public void preInit() {
-		com.example.examplemod.StartupCommon.preInitCommon();
-		
+		testmod.testblock.StartupCommon.preInitCommon();
 	}
 	
 	public void init() {
-		com.example.examplemod.StartupCommon.initCommon();
+		testmod.testblock.StartupCommon.initCommon();
 	}
 	
 	public void postInit() {
-		com.example.examplemod.StartupCommon.postInitCommon();
+		testmod.testblock.StartupCommon.postInitCommon();
 	}
 	
 	//To determine if player is in creative

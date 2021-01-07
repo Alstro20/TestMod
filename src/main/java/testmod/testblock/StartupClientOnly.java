@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package testmod.testblock;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
