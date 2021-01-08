@@ -1,4 +1,6 @@
-package testmod;
+package com.test.testmod;
+
+import com.test.testmod.testitem.TestItem;
 
 //import testmod.TestMod;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -8,7 +10,6 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
-import testmod.testitem.TestItem;
 
 @EventBusSubscriber(value = Side.CLIENT, modid = TestMod.MODID)
 public class ModelRegistrationHandler {

@@ -1,6 +1,5 @@
-package testmod;
+package com.test.testmod;
 
-import testmod.TestMod;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 

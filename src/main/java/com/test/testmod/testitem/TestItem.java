@@ -1,7 +1,9 @@
-package testmod.testitem;
+package com.test.testmod.testitem;
 
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
-import testmod.TestMod;
+
+import com.test.testmod.TestMod;
+
 import net.minecraft.item.Item;
 
 @ObjectHolder(TestMod.MODID)

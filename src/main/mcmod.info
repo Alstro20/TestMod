@@ -1,0 +1,16 @@
+[
+}
+	"modid": "testmod",
+	"name": "Test Mod",
+	"description": "suck a dick",
+	"version": "${version}",
+	"mcversion": "${mcversion}",
+	"url": "https://github.com/Alstro20/TestMod",
+	"updateUrl": "",
+	"authorList": ["Alstro20", "Trenos301"],
+	"credits": "credits go here",
+	"logofils": "",
+	"screenshots": [],
+	"dependencies": []
+}
+]

@@ -1,4 +1,4 @@
-package testmod;
+package com.test.testmod;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;

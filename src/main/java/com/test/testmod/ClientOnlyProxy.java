@@ -1,4 +1,4 @@
-package testmod;
+package com.test.testmod;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -10,20 +10,20 @@ public class ClientOnlyProxy extends CommonProxy {
 	public void preInit()
 	{
 		super.preInit();
-		testmod.testblock.StartupClientOnly.preInitClientOnly();
+		com.test.testmod.testblock.StartupClientOnly.preInitClientOnly();
 	}
 	
 	public void init()
 	{
 		super.init();
-		testmod.testblock.StartupClientOnly.initClientOnly();
+		com.test.testmod.testblock.StartupClientOnly.initClientOnly();
 		
 	}
 	
 	public void postInit()
 	{
 		super.postInit();
-		testmod.testblock.StartupClientOnly.postInitClientOnly();
+		com.test.testmod.testblock.StartupClientOnly.postInitClientOnly();
 		
 	}
 	

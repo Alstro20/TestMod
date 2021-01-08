@@ -1,4 +1,4 @@
-package testmod.testblock;
+package com.test.testmod.testblock;
 
 
 import net.minecraft.block.Block;
